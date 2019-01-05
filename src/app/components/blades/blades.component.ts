@@ -57,7 +57,7 @@ export class BladesComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    
   }
 
   // Public Methods

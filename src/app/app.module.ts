@@ -19,7 +19,6 @@ import { WebviewDirective } from './directives/webview.directive';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { BladesComponent } from './components/blades/blades.component';
-import { NavigationComponent } from './components/navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
@@ -28,8 +27,13 @@ import {
   MatTableModule,
   MatSortModule,
   MatPaginatorModule,
-  MatCheckboxModule
+  MatCheckboxModule,
+  MatToolbarModule
 } from '@angular/material';
+
+import {
+  MatSidenavModule
+} from '@angular/material/sidenav';
 
 import { DiceService } from './services/dice.service';
 import { BladesJsonService } from './services/blades/blades-json.service';
@@ -59,7 +63,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     WebviewDirective,
     BladesComponent,
-    NavigationComponent,
     BladesPersonTableComponent,
     BladesBuildingTableComponent,
     BladesDemonTableComponent,
@@ -87,6 +90,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatPaginatorModule,
     MatExpansionModule,
     MatCheckboxModule,
+    MatSidenavModule,
+    MatToolbarModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
