@@ -51,6 +51,7 @@ import { BladesForgottenGodsTableComponent } from './components/blades/forgotten
 import { BladesGhostsTableComponent } from './components/blades/ghosts-table/ghosts-table.component';
 import { BladesRumorsTableComponent } from './components/blades/rumors-table/rumors-table.component';
 import { BladesCharactersTableComponent } from './components/blades/characters-table/characters-table.component';
+import { NavigationService } from './services/shared/navigation.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -106,7 +107,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ElectronService,
     DiceService,
     BladesJsonService,
-    BladesCharacterService
+    BladesCharacterService,
+    NavigationService
   ],
   bootstrap: [
     AppComponent

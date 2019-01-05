@@ -54,6 +54,7 @@ export class BladesComponent implements OnInit {
 
   constructor() {
     this.BladesHeader = 'assets/blades_header.jpg';
+    this.UseStarter = true;
   }
 
   ngOnInit() {
