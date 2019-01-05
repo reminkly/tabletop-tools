@@ -1,0 +1,108 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "306",
+    "ClientOrTarget": {
+        "Civilian": [
+            "Academic or Scholar",
+            "Laborer or Tradesman",
+            "Courier or Sailor",
+            "Merchant or Shopkeeper",
+            "Artist or Writer",
+            "Doctor or Alchemist"
+        ],
+        "Criminal": [
+            "Drug Dealer or Supplier",
+            "Mercenary or Thug",
+            "Fence or Gambler",
+            "Spy or Informant",
+            "Smuggler or Thief",
+            "Crime Boss"
+        ],
+        "Political": [
+            "Noble or Official",
+            "Banker or Captain",
+            "Revolutionary or Refugee",
+            "Clergy or Cultist",
+            "Constable or Inspector",
+            "Magistrate or Ward Boss"
+        ],
+        "Strange": [
+            "Ghost",
+            "Occult Collector",
+            "Vampire or Other Undead",
+            "Demon (disguised)",
+            "Possessed or Hollow",
+            "Whisper or Culstist"
+        ]
+    },
+    "Work": {
+        "Skullduggery": [
+            "Stalking or Surveillance",
+            "Sabotage or Arson",
+            "Lift or Plant",
+            "Poison or Arrange Accident",
+            "Burglary or Heist",
+            "Impersonate or Misdirect"
+        ],
+        "Violence": [
+            "Assassinate",
+            "Disappear or Ransom",
+            "Terrorize or Extort",
+            "Destroy or Deface",
+            "Raid or Defend",
+            "Rob or Strong-arm"
+        ],
+        "Underworld": [
+            "Escort or Security",
+            "Smuggle or Courier",
+            "Blackmail or Discredit",
+            "Con or Espionate",
+            "Locate or Hide",
+            "Negotiate or Threaten"
+        ],
+        "Unnatural": [
+            "Curse of Sanctify",
+            "Banish or Summon",
+            "Extract Essence",
+            "Place or Remove Runes",
+            "Perform or Stop Ritual",
+            "Hollow or Revivify"
+        ]
+    },
+    "TwistOrComplication": [
+        "An element is a cover for heretic spirit cult practices",
+        "An occultist has foreseen this job and warned the parties involved",
+        "Rogue spirits possess some/most/all of the people involved",
+        "Rogue spirits haunt the location",
+        "The job furthers a demon's secret agenda",
+        "The job furthers a vampire's secret agenda",
+        "An element is a front for a criminal enterprise",
+        "A dangerous gang uses the location",
+        "The job is a trap laid by your enemies",
+        "The job is a test for another job",
+        "The job furthers a merchant lord's secret agenda",
+        "The job furthers a crime boss's secret agenda",
+        "The job requires travel by electro-rail",
+        "Must visit the deathlands to do the job",
+        "The job requires sea travel",
+        "The location moves around (site changes, it's on a vehicle, etc.)",
+        "The job furthers a revolutionary's secret agenda",
+        "The job furthers a city official's secret agenda"
+    ],
+    "Connection": [
+        "PC - Friend",
+        "PC - Rival",
+        "PC - Vice Purveyor",
+        "Crew - Contact",
+        "City - Doskvol Noble",
+        "City - Merchant",
+        "City - Prisoner",
+        "City - Random",
+        "Faction",
+        "Faction - Ally",
+        "Faction - Enemy",
+        "Faction - Same District",
+        "Faction - Same Drive, Belief, or Essential Nature",
+        "Weird - Ghost, Demon, God"
+    ]
+}

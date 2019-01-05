@@ -1,0 +1,11 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="Text">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Event</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Text}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

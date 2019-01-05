@@ -1,0 +1,74 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "255",
+    "Doskvol": [{
+            "Name": "Barrowcleft",
+            "Description": "Residences and markets for the farmers who work the fields and eeleries."
+        },
+        {
+            "Name": "Brightstone",
+            "Description": "The grand mansions and luxury shops of the wealthy elite."
+        },
+        {
+            "Name": "Charhollow",
+            "Description": "A crowded district of tenements and stacked houses."
+        },
+        {
+            "Name": "Charterhall",
+            "Description": "The city’s civic offices and the hub for shops, artisans, and commerce."
+        },
+        {
+            "Name": "Coalridge",
+            "Description": "The remnants of Doskvol’s original hilltop mining settlement, now home to laborers and industrial factories."
+        },
+        {
+            "Name": "Crow's Foot",
+            "Description": "A cramped neighborhood of multi-level streets, ruled by gangs."
+        },
+        {
+            "Name": "The Docks",
+            "Description": "Rough taverns, tattoo parlors, fighting pits, and warehouses."
+        },
+        {
+            "Name": "Dunslough",
+            "Description": "A labor camp served by convicts and a ghetto for the destitute poor."
+        },
+        {
+            "Name": "Nightmarket",
+            "Description": "The trade center for exotic goods imported by rail. Many vendors also trade in illicit goods."
+        },
+        {
+            "Name": "Silkshore",
+            "Description": "The 'red lamp district' and artist community"
+        },
+        {
+            "Name": "Six Towers",
+            "Description": "A formerly rich district, now worn down and dilapidated."
+        },
+        {
+            "Name": "Whitecrown",
+            "Description": "The sprawling estates of the Lord Governor, Hunter Commander, Master Warden, and Doskvol Academy."
+        }
+    ],
+    "ShatteredIsles": [{
+            "Name": "Severos",
+            "Description": "A land of windswept plains, covered in dark scrub and thorny growths. Outside the Imperial cities on the coast, some native Serverosi still live in free tribes, scavenging the death-lands on their ghost-hunting horses. They are generally brown-skinned and dark-haired."
+        },
+        {
+            "Name": "Iruvia",
+            "Description": "A land of black deserts, obsidian mountains, and raging volcanoes. Some say that positions of power are openly held by demons in Iruvia. The people are generally amber-skinned and dark-haired."
+        },
+        {
+            "Name": "The Dagger Isles",
+            "Description": "A tropical archipelago covered in dense jungle growth; now turned dark and twisted from the strange magic of the cataclysm. Some say that the people there live without lightning barriers. How do they manage that? Native islanders are generally copper-skinned and dark-haired."
+        },
+        {
+            "Name": "Skovlan",
+            "Description": "A ragged land of cold mountains and rough tundra. Skovlan was the last holdout against Imperial control. They are generally pale-skinned and fair-haired or red-haired."
+        },
+        {
+            "Name": "Tycheros",
+            "Description": "A far off land, disconnected from the Empire. People say the Tycherosi (rudely called 'Strangers') have demon blood in their lineage."
+        }
+    ]
+}

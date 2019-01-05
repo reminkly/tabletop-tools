@@ -1,0 +1,282 @@
+<div class="container" fxLayout="column" fxLayoutGap="10px">
+    <div fxFlex="100%">
+        <img [src]="BladesHeader" width="100%" />
+    </div>
+    <div fxFlex="100%">
+        <button mat-stroked-button (click)="ClearAll()">Clear All Tables</button>
+    </div>
+    <div fxFlex="100%">
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Characters
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <mat-checkbox [(ngModel)]="UseStarter">Use Starter?</mat-checkbox> &nbsp;
+                                <button mat-stroked-button (click)="RandomizeCharacter()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearCharacters()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-characters-table [useStarter]="UseStarter"></app-blades-characters-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        People
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizePerson()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearPerson()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-person-table></app-blades-person-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Buildings
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeBuilding()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearBuilding()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-building-table></app-blades-building-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Streets
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeStreet()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearStreet()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-streets-table></app-blades-streets-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Demons
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeDemon()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearDemon()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-demon-table></app-blades-demon-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Ghosts
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeGhost()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearGhosts()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-ghosts-table></app-blades-ghosts-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Cults
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeCult()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearCult()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-cults-table></app-blades-cults-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Forgotten Gods
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeForgottenGod()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearForgottenGods()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-forgotten-gods-table></app-blades-forgotten-gods-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        City Events
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeCityEvent()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearCityEvents()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-city-event-table></app-blades-city-event-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        City Occurrences
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeCityOccurrence()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearCityOccurrence()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-city-occurrences-table></app-blades-city-occurrences-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Rumors
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <div class="container" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center">
+                            <div fxFlex="100%">
+                                <button mat-stroked-button (click)="RandomizeRumor()">Randomize</button> &nbsp;
+                                <button mat-stroked-button (click)="ClearRumors()">Clear</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div fxFlex="100%">
+                        <app-blades-rumors-table></app-blades-rumors-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Factions
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <app-blades-faction-table></app-blades-faction-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        World Locations
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="container" fxLayout="column" fxLayoutGap="10px">
+                    <div fxFlex="100%">
+                        <app-blades-world-locations-table></app-blades-world-locations-table>
+                    </div>
+                </div>
+            </mat-expansion-panel>
+        </mat-accordion>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+@import '../../../styles/extends.scss';
+@import '../../../styles/variables.scss';
+.navigation {
+    border-bottom-style: solid;
+    border-bottom-color: $blue-color;
+    border-bottom-width: 1px;
+    padding: 10px;
+}

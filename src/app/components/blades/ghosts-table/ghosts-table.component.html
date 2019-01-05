@@ -1,0 +1,28 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="Traits">
+        <mat-header-cell *matHeaderCellDef>Traits</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Traits">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="SecondaryEffects">
+        <mat-header-cell *matHeaderCellDef>Secondary Effects</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.SecondaryEffects">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

@@ -1,0 +1,23 @@
+@import './extends.scss';
+@import './variables.scss';
+@import '../../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css';
+body {
+    @extend %body-font;
+    color: $white-color;
+    background-color: $black-color;
+    margin: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @extend %header-font;
+    color: $white-color;
+}
+
+a {
+    color: $white-color;
+}

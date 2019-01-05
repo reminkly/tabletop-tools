@@ -1,0 +1,32 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "",
+    "Name": "",
+    "XPTrigger": "",
+    "Actions": [{
+            "Action": "",
+            "Value": 0
+        },
+        {
+            "Action": "",
+            "Value": 0
+        }
+    ],
+    "Starters": [{
+        "Title": "",
+        "Adjustments": [{
+            "Action": "",
+            "Value": 0
+        }],
+        "Special": ""
+    }],
+    "Specials": [{
+        "Name": "",
+        "Description": ""
+    }],
+    "Items": [{
+        "Name": "",
+        "Description": "",
+        "Load": 0
+    }]
+}

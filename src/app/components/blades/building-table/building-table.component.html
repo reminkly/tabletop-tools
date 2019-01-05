@@ -1,0 +1,48 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="ExteriorMaterial">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Exterior Material</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Exterior.Material}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="ExteriorDetails">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Exterior Details</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Exterior.Details}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="CommonUse">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Common Use</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.CommonUse}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="RareUse">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Rare Use</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.RareUse}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Details">
+        <mat-header-cell *matHeaderCellDef>Details</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Details">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Items">
+        <mat-header-cell *matHeaderCellDef>Items</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Items">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

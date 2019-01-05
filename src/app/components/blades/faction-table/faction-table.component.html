@@ -1,0 +1,53 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="Category">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Category</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Category}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Name">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Name</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Name}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Tier">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Tier</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Tier}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Hold">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Hold</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Hold}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Description">
+        <mat-header-cell *matHeaderCellDef>Description</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Description}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Allies">
+        <mat-header-cell *matHeaderCellDef>Allies</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Allies">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Enemies">
+        <mat-header-cell *matHeaderCellDef>Enemies</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Enemies">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

@@ -1,0 +1,33 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "55",
+    "Vices": [{
+            "Type": "Faith",
+            "Description": "You’re dedicated to an unseen power, forgotten god, ancestor, etc."
+        },
+        {
+            "Type": "Gambling",
+            "Description": "You crave games of chance, betting on sporting events, etc."
+        },
+        {
+            "Type": "Luxury",
+            "Description": "Expensive or ostentatious displays of opulence."
+        },
+        {
+            "Type": "Obligation",
+            "Description": "You’re devoted to a family, a cause, an organization, a charity, etc."
+        },
+        {
+            "Type": "Pleasure",
+            "Description": "Gratification from lovers, food, drink, drugs, art, theater, etc."
+        },
+        {
+            "Type": "Stupor",
+            "Description": "You seek oblivion in the abuse of drugs, drinking to excess, getting beaten to a pulp in the fighting pits, etc."
+        },
+        {
+            "Type": "Weird",
+            "Description": "You experiment with strange essences, consort with rogue spirits, observe bizarre rituals or taboos, etc."
+        }
+    ]
+}

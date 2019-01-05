@@ -1,0 +1,103 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="Gender">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Gender</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Gender}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Looks">
+        <mat-header-cell *matHeaderCellDef>Looks</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Looks">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Goals">
+        <mat-header-cell *matHeaderCellDef>Goals</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Goals">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Methods">
+        <mat-header-cell *matHeaderCellDef>Methods</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Methods">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="CommonProfession">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Common Profession</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.CommonProfession}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="RareProfession">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Rare Profession</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.RareProfession}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Heritage">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Heritage</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Heritage}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Styles">
+        <mat-header-cell *matHeaderCellDef>Styles</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Styles">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Traits">
+        <mat-header-cell *matHeaderCellDef>Traits</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Personality.Traits">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Interests">
+        <mat-header-cell *matHeaderCellDef>Interests</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Personality.Interests">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Quirks">
+        <mat-header-cell *matHeaderCellDef>Quirks</mat-header-cell>
+        <mat-cell *matCellDef="let element">
+            <ul class="fa-ul">
+                <li *ngFor="let value of element.Personality.Quirks">
+                    <i class="fa-li fa fa-level-up-alt fa-rotate-90"></i> {{ value }}
+                </li>
+            </ul>
+        </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

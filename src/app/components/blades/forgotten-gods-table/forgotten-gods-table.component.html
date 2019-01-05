@@ -1,0 +1,21 @@
+<mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 50, 100]"></mat-paginator>
+
+<mat-table [dataSource]="Data" class="mat-elevation-z8" matSort>
+    <ng-container matColumnDef="Title">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Title</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Title}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Type">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Cult Type</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Cult.Type}}</mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Action">
+        <mat-header-cell *matHeaderCellDef mat-sort-header>Cult Action</mat-header-cell>
+        <mat-cell *matCellDef="let element">{{element.Cult.Action}}</mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="Headers"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: Headers;"></mat-row>
+</mat-table>

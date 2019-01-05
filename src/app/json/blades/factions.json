@@ -1,0 +1,869 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "282-297",
+    "Underworld": [{
+            "Name": "The Unseen",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "An insidious criminal enterprise with secret membership. Thought to pull the strings of the entire underworld.",
+            "Allies": [
+                "The Bluecoats",
+                "Ironhook Prison",
+                "The Forgotten Gods",
+                "Cyphers"
+            ],
+            "Enemies": [
+                "Spirit Wardens",
+                "Ink Rakes",
+                "The Hive"
+            ]
+        },
+        {
+            "Name": "The Hive",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "A guild of merchants who secretly trade in contraband. Named for their symbol, a golden bee.",
+            "Allies": [
+                "Ministry of Preservation",
+                "Dagger Isles Consulate"
+            ],
+            "Enemies": [
+                "The Circle of Flame",
+                "The Unseen",
+                "The Crows",
+                "The Wraiths"
+            ]
+        },
+        {
+            "Name": "The Circle of Flame",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "A secret society of antiquarians and scholars; cover for extortion, graft, vice, and murder.",
+            "Allies": [
+                "The Forgotten Gods",
+                "The Path of Echoes",
+                "The City Council",
+                "The Foundation"
+            ],
+            "Enemies": [
+                "The Hive",
+                "The Silver Nails"
+            ]
+        },
+        {
+            "Name": "The Silver Nails",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "A company of Severosi mercenaries turned to crime when the war for Skovlan Unity ended. Renowned ghost killers.",
+            "Allies": [
+                "Imperial Military",
+                "Sailors",
+                "Severosan Consulate"
+            ],
+            "Enemies": [
+                "The Circle of Flame",
+                "The Grinders",
+                "Skovlan Consulate",
+                "Skovlander Refugees",
+                "Spirit Wardens"
+            ]
+        },
+        {
+            "Name": "Lord Scurlock",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "An ancient noble, said to be immortal, like the Emperor. Possibly a vampire. Obsessed with arcane secrets.",
+            "Allies": [
+                "The City Council",
+                "The Bluecoats"
+            ],
+            "Enemies": [
+                "Spirit Wardens"
+            ]
+        },
+        {
+            "Name": "The Crows",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "An old gang with new leadership. Known for running illegal games of chance and extortion rackets.",
+            "Allies": [
+                "The Bluecoats",
+                "Sailors",
+                "The Lost",
+                "Citizens of Crow's Foot"
+            ],
+            "Enemies": [
+                "The Hive",
+                "Inspectors",
+                "Dockers"
+            ]
+        },
+        {
+            "Name": "The Lampblacks",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "The former lamp-lighter guild, turned to crime when their services were replaced by electric lights.",
+            "Allies": [
+                "The Fog Hounds",
+                "Gondoliers",
+                "Ironhook Prison"
+            ],
+            "Enemies": [
+                "The Red Sashes",
+                "Bluecoats",
+                "Cabbies"
+            ]
+        },
+        {
+            "Name": "The Red Sashes",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": " Originally an Iruvian school of swordsmanship, expanded into criminal endeavors.",
+            "Allies": [
+                "Iruvian Consulate",
+                "The Path of Echoes",
+                "Dockers",
+                "Cabbies",
+                "The Inspectors"
+            ],
+            "Enemies": [
+                "The Lampblacks",
+                "Bluecoats",
+                "Gondoliers"
+            ]
+        },
+        {
+            "Name": "The Dimmer Sisters",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "Housebound recluses with an occult reputation.",
+            "Allies": [
+                "The Forgotten Gods",
+                "The Foundation"
+            ],
+            "Enemies": [
+                "Spirit Wardens",
+                "The Reconciled"
+            ]
+        },
+        {
+            "Name": "The Grinders",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "A vicious gang of former dockers and leviathan blood refinery workers from Skovlan.",
+            "Allies": [
+                "Ulf Ironborn",
+                "Dockers"
+            ],
+            "Enemies": [
+                "Bluecoats",
+                "Imperial Military",
+                "Leviathan Hunters",
+                "Sailors",
+                "The Silver Nails"
+            ]
+        },
+        {
+            "Name": "The Billhooks",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "A tough gang of thugs wielding hatchets and meat hooks.",
+            "Allies": [
+                "The Bluecoats",
+                "Ministry of Preservation"
+            ],
+            "Enemies": [
+                "Ulf Ironborn",
+                "The Lost",
+                "Citizenry of Crow's Foot",
+                "Citizenry of the Docks"
+            ]
+        },
+        {
+            "Name": "The Wraiths",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "A mysterious crew of masked thieves and spies.",
+            "Allies": [
+                "Cabbies"
+            ],
+            "Enemies": [
+                "Bluecoats",
+                "Inspectors",
+                "The Hive"
+            ]
+        },
+        {
+            "Name": "The Gray Cloaks",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "Former Bluecoats who turned to crime.",
+            "Allies": [
+                "The Inspectors"
+            ],
+            "Enemies": [
+                "Bluecoats",
+                "Lord Strangford (Leviathan Hunters)"
+            ]
+        },
+        {
+            "Name": "The Fog Hounds",
+            "Tier": 1,
+            "Hold": "W",
+            "Description": "A crew of rough smugglers looking for a patron.",
+            "Allies": [
+                "Dockers",
+                "The Lampblacks"
+            ],
+            "Enemies": [
+                "Bluecoats (canal patrol)",
+                "The Vultures"
+            ]
+        },
+        {
+            "Name": "The Vultures",
+            "Tier": 1,
+            "Hold": "W",
+            "Descripton": "A small smuggling operation.",
+            "Allies": [
+
+            ],
+            "Enemies": [
+                "The Fog Hounds"
+            ]
+        },
+        {
+            "Name": "The Lost",
+            "Tier": 1,
+            "Hold": "W",
+            "Description": "A group of street-toughs and ex-soldiers dedicated to protecting the downtrodden and the hopeless.",
+            "Allies": [
+                "Workhouse Laborers",
+                "Citizens of Coalridge",
+                "Citizens of Dunslough",
+                "The Crows"
+            ],
+            "Enemies": [
+                "Workhouse Foremen",
+                "Bluecoats",
+                "The Billhooks"
+            ]
+        },
+        {
+            "Name": "Ulf Ironborn",
+            "Tier": 1,
+            "Hold": "W",
+            "Description": "A brutal Skovlander, newly arrived in the Dusk, fighting everyone for turf.",
+            "Allies": [
+                "The Grinders"
+            ],
+            "Enemies": [
+                "Citizenry of Coalridge",
+                "The Billhooks"
+            ]
+        }
+    ],
+    "Institutions": [{
+            "Name": "Imperial Military",
+            "Tier": 6,
+            "Hold": "S",
+            "Description": "The armed forces of the Imperium stationed in Doskvol. Garrisons are posted at Gaddoc Rail Station, aboard the naval destroyer Paragon, and at the Lord Governor’s stronghold (about 250 troops in total).",
+            "Allies": [
+                "The City Council",
+                "The Silver Nails"
+            ],
+            "Enemies": [
+                "Ministry of Preservation",
+                "Bluecoats",
+                "The Grinders"
+            ]
+        },
+        {
+            "Name": "City Council",
+            "Tier": 5,
+            "Hold": "S",
+            "Description": "The elite noble rulers of the city government.",
+            "Allies": [
+                "The Bluecoats",
+                "The Church of Ecstasy",
+                "The Circle of Flame",
+                "Lord Scurlock",
+                "The Brigade",
+                "Cabbies",
+                "Sparkwrights",
+                "The Foundation"
+            ],
+            "Enemies": [
+                "Imperial Military",
+                "Inspectors",
+                "Ministry of Preservation",
+                "The Reconciled"
+            ]
+        },
+        {
+            "Name": "Ministry of Preservation",
+            "Tier": 5,
+            "Hold": "S",
+            "Description": "The governmental body of the Imperium that oversees all transportation between cities and the disbursement of food and other vital resources.",
+            "Allies": [
+                "The Billhooks",
+                "Imperial Military",
+                "Rail Jacks",
+                "Sparkwrights"
+            ],
+            "Enemies": [
+                "Leviathan Hunters"
+            ]
+        },
+        {
+            "Name": "Leviathan Hunters",
+            "Tier": 5,
+            "Hold": "S",
+            "Description": "The daring captains and crews that grapple with titanic demons of the Void Sea to drain their blood for processing into electroplasm.",
+            "Allies": [
+                "The City Council",
+                "The Church of Ecstasy",
+                "Sailors",
+                "Dockers",
+                "Sparkwrights"
+            ],
+            "Enemies": [
+                "The Grinders",
+                "Ministry of Preservation",
+                "The Path of Echoes"
+            ]
+        },
+        {
+            "Name": "Ironhook Prison",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "Where many scoundrels spend the bulk of their lives. Several criminal organizations are run by convicts inside its walls.",
+            "Allies": [
+                "The Bluecoats",
+                "The Unseen",
+                "The Lampblacks"
+            ],
+            "Enemies": [
+                "Deathlands Scavengers"
+            ]
+        },
+        {
+            "Name": "Sparkwrights",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "The engineers who maintain the lightning barriers. Also pioneers of new technology, often indulging in dangerous research.",
+            "Allies": [
+                "The City Council",
+                "Leviathan Hunters",
+                "Ministry of Preservation"
+            ],
+            "Enemies": [
+                "The Path of Echoes",
+                "The Reconciled",
+                "The Foundation"
+            ]
+        },
+        {
+            "Name": "Spirit Wardens",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "The bronzemasked hunters who destroy rogue spirits. Also run Bellweather Crematorium and research artifacts scavenged in the deathlands. Membership is secret.",
+            "Allies": [
+                "The Church of Ecstasy",
+                "Deathlands Scavengers"
+            ],
+            "Enemies": [
+                "The Dimmer Sisters",
+                "Gondoliers",
+                "Lord Scurlock",
+                "The Silver Nails",
+                "The Unseen",
+                "The Path of Echoes",
+                "The Reconciled"
+            ]
+        },
+        {
+            "Name": "Bluecoats",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "The City Watch of Duskwall, tasked with upholding the law. Known as the meanest gang in the city. Corrupt, violent, and cruel.",
+            "Allies": [
+                "The City Council",
+                "The Billhooks",
+                "The Crows",
+                "Ironhook Prison",
+                "Lord Scurlock",
+                "The Unseen"
+            ],
+            "Enemies": [
+                "Imperial Military",
+                "Many crime organizations"
+            ]
+        },
+        {
+            "Name": "Inspectors",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "The criminal investigators of the City Watch. They have a reputation for ethics and integrity (no one likes them). They present evidence for prosecutions to the city magistrates.",
+            "Allies": [
+                "The Red Sashes",
+                "The Gray Cloaks"
+            ],
+            "Enemies": [
+                "The Crows",
+                "The Wraiths",
+                "The City Council"
+            ]
+        },
+        {
+            "Name": "Iruvian Consulate",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "The Red Sashes"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Skovlan Consulate",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+
+            ],
+            "Enemies": [
+                "The Silver Nails"
+            ]
+        },
+        {
+            "Name": "The Brigade",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "The fire-fighters of the city. Beloved for their life-saving heroism, or reviled for their looting and extortion rackets. Also known as 'Sallies' (from 'salamanders', their ancient name).",
+            "Allies": [
+                "The City Council"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Severosan Consulate",
+            "Tier": 1,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "The Silver Nails"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Dagger Isles Consulate",
+            "Tier": 1,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "The Hive"
+            ],
+            "Enemies": [
+
+            ]
+        }
+    ],
+    "LaborTrade": [{
+            "Name": "The Foundation",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "The powerful ancient order of architects and builders. Many of their enemies have disappeared behind the brick and mortar of Doskvol.",
+            "Allies": [
+                "The Circle of Flame",
+                "The Dimmer Sisters",
+                "The City Council"
+            ],
+            "Enemies": [
+                "The Sparkwrights"
+            ]
+        },
+        {
+            "Name": "Dockers",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "The hard-bitten laborers who work the docks.",
+            "Allies": [
+                "The Red Sashes",
+                "The Grinders",
+                "The Fog Hounds",
+                "Leviathan Hunters"
+            ],
+            "Enemies": [
+                "The Crows"
+            ]
+        },
+        {
+            "Name": "Gondoliers",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "The guild of canal boat operators. Venerated by ancient tradition. Said to know occult secrets (many things are submerged in the Dusk).",
+            "Allies": [
+                "The Lampblacks",
+                "Citizens of all districts"
+            ],
+            "Enemies": [
+                "The Red Sashes",
+                "Spirit Wardens"
+            ]
+        },
+        {
+            "Name": "Sailors",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "The captains and crews for merchant and Imperial Navy ships.",
+            "Allies": [
+                "The Silver Nails"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Workhouse Laborers",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+                "The Lost"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Cabbies",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "The public coach operators. They also breed the large Akorosian goats used to pull the carriages. An impressive gossip network.",
+            "Allies": [
+                "The Red Sashes",
+                "The Wraiths",
+                "The City Council"
+            ],
+            "Enemies": [
+                "The Lampblacks"
+            ]
+        },
+        {
+            "Name": "Cyphers",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "The messenger guild of the city. Cyphers swear sacred oaths of secrecy—never revealing the contents of their messages or the identities of their clients—or so they claim.",
+            "Allies": [
+                "The Unseen"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Ink Rakes",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "The journalists, muckrakers, and newspaper publishers of Doskvol.",
+            "Allies": [
+
+            ],
+            "Enemies": [
+                "The Unseen"
+            ]
+        },
+        {
+            "Name": "Rail Jacks",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "The men and women who protect the electro-trains of the Imperium from the savage spirits of the deathlands. Have recently been making noises about forming a union.",
+            "Allies": [
+                "Ministry of Preservation"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Servants",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+
+            ],
+            "Enemies": [
+
+            ]
+        }
+    ],
+    "Citizenry": [{
+            "Name": "Whitecrown",
+            "Tier": 5,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Brighstone",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Charterhall",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Six Towers",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Silkshore",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Nightmarket",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Crow's Foot",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers",
+                "The Crows"
+            ],
+            "Enemies": [
+                "The Billhooks"
+            ]
+        },
+        {
+            "Name": "The Docks",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+                "The Billhooks"
+            ]
+        },
+        {
+            "Name": "Barrowcleft",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Coalridge",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+                "Gondoliers",
+                "The Lost"
+            ],
+            "Enemies": [
+                "Ulf Ironborn"
+            ]
+        },
+        {
+            "Name": "Charhollow",
+            "Tier": 1,
+            "Hold": "S",
+            "Description": "",
+            "Allies": [
+                "Gondoliers"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Dunslough",
+            "Tier": 1,
+            "Hold": "W",
+            "Description": "",
+            "Allies": [
+                "Gondoliers",
+                "The Lost"
+            ],
+            "Enemies": [
+
+            ]
+        }
+    ],
+    "Fringe": [{
+            "Name": "The Church of the Ecstasy of the Flesh",
+            "Tier": 4,
+            "Hold": "S",
+            "Description": "The 'state religion', if there is such a thing. They honor the life of the body and abhor the corrupted spirit world. Essentially a secret society.",
+            "Allies": [
+                "The City Council",
+                "Leviathan Hunters",
+                "Spirit Wardens"
+            ],
+            "Enemies": [
+                "The Path of Echoes",
+                "The Reconciled"
+            ]
+        },
+        {
+            "Name": "The Horde",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "A mass of hollows, all united in some fell purpose, controlled by an unknown power.",
+            "Allies": [
+
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "The Path of Echoes",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "A mystery cult that borders on open rebellion against spirit laws. They revere the ancients, and seek to gain knowledge from the past— including consorting with ghosts.",
+            "Allies": [
+                "The Circle of Flame",
+                "The Red Sashes"
+            ],
+            "Enemies": [
+                "Leviathan Hunters",
+                "The Sparkwrights",
+                "Spirit Wardens",
+                "The Church of Ecstasy"
+            ]
+        },
+        {
+            "Name": "The Forgotten Gods",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "Cults that attempt to follow the old ways from before the cataclysm, doing the bidding of demons and darker things. There are many cults, who rarely organize together. An individual cult is usually Tier 1 or Tier 2.",
+            "Allies": [
+                "Deathlands Scavengers",
+                "The Unseen",
+                "The Circle of Flame",
+                "The Dimmer Sisters"
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "The Reconciled",
+            "Tier": 3,
+            "Hold": "S",
+            "Description": "An association of spirits who have not gone feral with the passage of time.",
+            "Allies": [
+                "The City Council",
+                "Gondoliers"
+            ],
+            "Enemies": [
+                "The Church of Ecstasy",
+                "Spirit Wardens",
+                "The Sparkwrights"
+            ]
+        },
+        {
+            "Name": "Skovlander Refugees",
+            "Tier": 3,
+            "Hold": "W",
+            "Description": "Desperate survivors of the Unity War, forced to criminal opportunities when denied all others.",
+            "Allies": [
+
+            ],
+            "Enemies": [
+                "The Silver Nails"
+            ]
+        },
+        {
+            "Name": "The Weeping Lady",
+            "Tier": 2,
+            "Hold": "S",
+            "Description": "A charity and pseudo-religion, honoring the first Lord Governor of Doskvol, Lady Devera, said to be a champion of the poor.",
+            "Allies": [
+
+            ],
+            "Enemies": [
+
+            ]
+        },
+        {
+            "Name": "Deathlands Scavengers",
+            "Tier": 2,
+            "Hold": "W",
+            "Description": "Convicts from Ironhook and desperate freelancers who roam the wasteland beyond the lightning barriers.",
+            "Allies": [
+                "The Forgotten Gods",
+                "Gondoliers",
+                "Spirit Wardens"
+            ],
+            "Enemies": [
+                "Ironhook Prison"
+            ]
+        }
+    ]
+}

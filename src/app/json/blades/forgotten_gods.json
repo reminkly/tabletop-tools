@@ -1,0 +1,163 @@
+{
+    "Book": "Blades in the Dark",
+    "Pages": "305",
+    "Gods": [
+        "The One Within Many",
+        "The Silver Fire",
+        "The Rapturous Chord",
+        "The Fallen Star",
+        "The Lord of the Depths",
+        "The Silent Song",
+        "The Lady of Thorns",
+        "Our Blood Spilled in Glory",
+        "The Ram",
+        "The Empty Vessel",
+        "The Closed Eye",
+        "The Hand of Sorrow",
+        "That Which Hungers",
+        "The Thousand Faces",
+        "The Web of Pain",
+        "The Pillars of Night",
+        "The Burned King",
+        "The Father of the Abyss",
+        "The Forsaken Legion",
+        "The Unbroken Sun",
+        "The Revelation",
+        "The Radiant Word",
+        "The Shrouded Queen",
+        "The Reconciler",
+        "The Cloud of Woe",
+        "The Broken Circle",
+        "The Conqueror",
+        "She Who Slays in Darkness",
+        "The Dream Beyond Death",
+        "The Blood Dimmed Tide",
+        "The Guardian of the Gates",
+        "The Maw of the Void",
+        "The Keeper of the Flame",
+        "The Throne of Judgment",
+        "The Lost Crown",
+        "The Golden Stag"
+    ],
+    "Cults": [{
+            "Type": "Sacrifice",
+            "Action": "Fed to specially consecrated beasts / savaged (eaten?) by frenzied cult mob."
+        },
+        {
+            "Type": "Sacrifice",
+            "Action": "Pitted against an anointed champion in death arena."
+        },
+        {
+            "Type": "Sacrifice",
+            "Action": "Ritually bled upon the sacred altar."
+        },
+        {
+            "Type": "Sacrifice",
+            "Action": "Progressively overdosed with mind-expanding drugs."
+        },
+        {
+            "Type": "Sacrifice",
+            "Action": "Ritually killed and claimed in as anointed spirit-champion."
+        },
+        {
+            "Type": "Sacrifice",
+            "Action": "Slain by arcane means (electrocuted, spirit shattered, death-cursed)."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "An orgy of pleasure (sex, food, dance, music) and/or pain."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "Sacred hymns or prayers for days without ceasing."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "Occupying a sacred nexus point during an astrological confluence."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "A pilgrimage to a sacred place or being in the deathlands/at sea."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "A group vision/dream-quest via essences, drugs, or meditation."
+        },
+        {
+            "Type": "Congregation",
+            "Action": "A reenactment/dumb-show of a sacred event."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "A collection of eyes/hearts/blood from mystics or demons."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "The shards of a shattered sacred object (jewel, sword, skull, stone)."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "The original holy writings of the prophet/master/saint."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "The severed body parts (heads, hands, tongues) of heretics or apostates."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "Properties aligned with sacred geometry or attuned by mystical events."
+        },
+        {
+            "Type": "Acquisition",
+            "Action": "The ghosts of prophets/mystics/founders/enemies of the order."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Purification by bathing in sacred fluid (blood, wine, milk, oil, etc.)."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Purification of the gates that give passage to the god into this world."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Baptism/blessing of an acolyte or object by immersion in spirit well."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Purify/bless cult followers with tattoos/sacrification/mutilation."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Creation of blessed idols/artwork/ritual spaces/artifacts."
+        },
+        {
+            "Type": "Consecration",
+            "Action": "Wards/runes/spirits bound to shun enemies of the order."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Debasement or defilement of one sword to an enemy order."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Corruption of place/object/ritual/tradition to appropriate its power."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Defilement of place/object/ritual to humiliate another order."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Manipulation of authorities/institution to appropriate their power."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Corruption of acolytes to prepare them for transformation."
+        },
+        {
+            "Type": "Desecration",
+            "Action": "Mindles, pointless chaos; sewing the seeds of anarchy."
+        }
+    ]
+}
